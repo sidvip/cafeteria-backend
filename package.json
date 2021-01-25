@@ -8,7 +8,8 @@
     "open-front": "npm start --prefix office-cafeteria",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "prod-start": "concurrently \"npm start\"  \"npm run open-front\""
+    "prod-start": "concurrently \"npm start\"  \"npm run open-front\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i --prefix office-cafeteria && npm run build --prefix office-cafeteria"
   },
   "author": "Siddhartha Vibhu Pharswan",
   "license": "ISC",
