@@ -41,7 +41,6 @@ build/Release
 .vscode/
 node_modules/
 jspm_packages/
-office-cafeteria/node_modules/
 config/keys_dev.js
 
 # TypeScript v1 declaration files
